@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "316d65f01c4e5742",
+    "type": "split",
+    "children": [
+      {
+        "id": "584266ed030b01c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45008f68a4931916",
+    "type": "split",
+    "children": [
+      {
+        "id": "a19dd2f4a8a8bfe0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29f36331b7ea510e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a6ca0f85f80d4f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "30d87e62ab2e862a",
+    "type": "split",
+    "children": [
+      {
+        "id": "94adc23705850d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7907bbb54dba3d33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "37b0225f529994fe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "664dd263c59ad833",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "584266ed030b01c5",
+  "lastOpenFiles": [
+    "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
+    "补充课/前端的进击/专业知识.md",
+    "基础课/P5M1：React 框架基础、JSX、React Router.md",
+    "补充课/FullStackOpen/part1-React 入门.md",
+    "补充课/FullStackOpen/part0-web fundemental.md",
+    "基础课/P2M2.md",
+    "基础课/P4M6T2：心选电商项目实例.md",
+    "基础课/P4M4：拉勾教育移动端开发示例.md",
+    "基础课/P4M6T1：Vue 3 基础.md",
+    "基础课/P6M1：小程序开发基础.md"
+  ]
+}
