@@ -7,12 +7,8 @@
         "id": "b4cd14bd47010d52",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "基础课/P6M3T1：Canvas.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基础课/P6M3T1：Canvas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "基础课/P6M3T1：Canvas.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -109,9 +102,9 @@
   },
   "active": "b4cd14bd47010d52",
   "lastOpenFiles": [
+    "基础课/P6M3T1：Canvas.md",
     "基础课/P6M1：小程序开发基础.md",
     "README.md",
-    "基础课/P6M3T1：Canvas.md",
     "基础课/P6M3T2：微信小游戏开发.md",
     "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
     "补充课/前端的进击/专业知识.md",
