@@ -7,8 +7,12 @@
         "id": "b4cd14bd47010d52",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "流行组件库的使用/mescroll-uni.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "30d87e62ab2e862a",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "流行组件库的使用/mescroll-uni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,26 +97,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "流行组件库的使用/mescroll-uni.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 247.5,
+    "collapsed": true
   },
-  "active": "b4cd14bd47010d52",
+  "active": "7907bbb54dba3d33",
   "lastOpenFiles": [
+    "基础课/P4M3：教育管理系统项目.md",
+    "基础课/P3M2：模块化开发和规范化标准.md",
+    "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
+    "流行组件库的使用/mescroll-uni.md",
     "基础课/P6M3T1：Canvas.md",
     "基础课/P6M1：小程序开发基础.md",
     "README.md",
     "基础课/P6M3T2：微信小游戏开发.md",
-    "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
     "补充课/前端的进击/专业知识.md",
-    "基础课/P5M1：React 框架基础、JSX、React Router.md",
-    "补充课/FullStackOpen/part1-React 入门.md",
-    "补充课/FullStackOpen/part0-web fundemental.md",
-    "基础课/P2M2.md"
+    "基础课/P5M1：React 框架基础、JSX、React Router.md"
   ]
 }
