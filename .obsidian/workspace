@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "流行组件库的使用/mescroll-uni.md",
+            "file": "Tricks/JS.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "30d87e62ab2e862a",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "流行组件库的使用/mescroll-uni.md",
+                "file": "Tricks/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "流行组件库的使用/mescroll-uni.md"
+                "file": "Tricks/JS.md"
               }
             }
           }
@@ -111,10 +110,10 @@
   },
   "active": "b4cd14bd47010d52",
   "lastOpenFiles": [
+    "流行组件库的使用/mescroll-uni.md",
     "基础课/P4M3：教育管理系统项目.md",
     "基础课/P3M2：模块化开发和规范化标准.md",
     "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
-    "流行组件库的使用/mescroll-uni.md",
     "基础课/P6M3T1：Canvas.md",
     "基础课/P6M1：小程序开发基础.md",
     "README.md",
