@@ -1,4 +1,4 @@
-### -   @表示项目根目录  
+### 1. @表示项目根目录  
 webpack打包的vue项目中，@表示src目录。
 ### -`<scroll-view>`
 	-   如需使用 flex 布局，必须先设`:enable-flex="true"`，否则CSS定义flex不生效。
