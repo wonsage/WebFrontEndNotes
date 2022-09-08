@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "小程序/小程序tips.md",
+            "file": "小程序/原生小程序.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "小程序/小程序tips.md",
+                "file": "小程序/原生小程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小程序/小程序tips.md"
+                "file": "小程序/原生小程序.md"
               }
             }
           }
@@ -110,6 +110,7 @@
   },
   "active": "b4cd14bd47010d52",
   "lastOpenFiles": [
+    "小程序/小程序tips.md",
     "补充课/Docker/Docker 入门.md",
     "Tricks/JS.md",
     "流行组件库的使用/mescroll-uni.md",
@@ -118,7 +119,6 @@
     "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md",
     "基础课/P6M3T1：Canvas.md",
     "基础课/P6M1：小程序开发基础.md",
-    "README.md",
-    "基础课/P6M3T2：微信小游戏开发.md"
+    "README.md"
   ]
 }
