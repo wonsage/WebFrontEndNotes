@@ -2,16 +2,16 @@
 ### 事件 v-on
 ### 插槽 v-slot
 初步使用：单个插槽
-组件模板内某一位置添加<slot>。
-使用组件时，写在组件标签的内容将插入到<slot>标签的位置。
+组件模板内某一位置添加`<slot>`。
+使用组件时，写在组件标签的内容将插入到`<slot>`标签的位置。
 复杂使用：多个具名插槽
-简写 #
-模板内多个<slot>，添加name属性区分它们，如<slot name="partA">、<slot name="partB">。
-使用时，组件内容便需要多个<template>区分对应，如<template v-slot:partA>、<template v-slot:partB>。没有name的插槽，可以使用<template v-slot:default>，或直接写在组件标签内部。
-v-slot只能用在<template>上。
+简写 `#`
+模板内多个`<slot>`，添加name属性区分它们，如`<slot name="partA">`、`<slot name="partB">`。
+使用时，组件内容便需要多个`<template>`区分对应，如`<template v-slot:partA>`、`<template v-slot:partB>`。没有name的插槽，可以使用`<template v-slot:default>`，或直接写在组件标签内部。
+v-slot只能用在`<template>`上。
 #### 作用域插槽
 插槽的作用是在父级使用子组件时按需修改组件的内容，但父级无法访问到子组件的数据。因此设置插槽时，将需要的数据绑定插槽传到父级。写法为：将数据作为v-slot的属性值。如：
-**只有默认插槽时**，v-slot才可以简写到组件上。省略了<template>，还省略了参数default。
+**只有默认插槽时**，v-slot才可以简写到组件上。省略了`<template>`，还省略了参数default。
 ```vue
 <template>
   <slot></slot>
@@ -112,8 +112,8 @@ export default {
 </script>
 ```
 ### mixins
-					   混入的顺序
-					   组件内原有的>混入的，混入的按数组内先后顺序
-					   data、components 会被合并，如有冲突优先组件内的
-					   created等生命周期钩子会按优先级先后执行
-					   methods 冲突时按优先级保留最前的
+混入的顺序
+组件内原有的>混入的，混入的按数组内先后顺序
+data、components 会被合并，如有冲突优先组件内的
+created等生命周期钩子会按优先级先后执行
+methods 冲突时按优先级保留最前的
