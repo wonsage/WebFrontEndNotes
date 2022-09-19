@@ -111,3 +111,9 @@ export default {
 	},
 </script>
 ```
+### mixins
+					   混入的顺序
+					   组件内原有的>混入的，混入的按数组内先后顺序
+					   data、components 会被合并，如有冲突优先组件内的
+					   created等生命周期钩子会按优先级先后执行
+					   methods 冲突时按优先级保留最前的
