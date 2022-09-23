@@ -57,6 +57,8 @@ Promise 解决了回调地狱的问题，但又造成了新的问题。
 （generator 是过渡）
 
 任何函数都可以设置为 async 模式，但它内部必须要与 await 配合使用。*await 设置了 resolve 的部分，而 reject 的错误情况需要通过 try...catch 处理。*
+`async`函数执行完会自动返回一个状态为`fulfilled`的Promise，也就是成功状态，值是函数的返回值，无return则是`undefined`。
+P.S. 如果一个`async`函数中通过`await`取到了Axios或其他promise的结果，并返回该值。那么，在其他函数调用此async函数，应同promise一样处理。
 
 ## try...catch
 

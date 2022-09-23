@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vue.js使用经验.md",
-            "mode": "preview",
+            "file": "基础课/P4M1Live：Promise.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mixins",
+                "query": "async",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js使用经验.md",
+                "file": "基础课/P4M1Live：Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js使用经验.md"
+                "file": "基础课/P4M1Live：Promise.md"
               }
             }
           }
@@ -109,8 +110,9 @@
     "width": 247.5,
     "collapsed": true
   },
-  "active": "29f36331b7ea510e",
+  "active": "b4cd14bd47010d52",
   "lastOpenFiles": [
+    "Vue.js使用经验.md",
     "小程序/微信小程序.md",
     "流行组件库的使用/mescroll-uni.md",
     "小程序/uni-app tips.md",
@@ -119,7 +121,6 @@
     "补充课/Docker/Docker 入门.md",
     "Tricks/JS.md",
     "基础课/P4M3：教育管理系统项目.md",
-    "基础课/P3M2：模块化开发和规范化标准.md",
-    "基础课/P4M2：组件化开发、Vue Router、Vue CLI.md"
+    "基础课/P3M2：模块化开发和规范化标准.md"
   ]
 }
