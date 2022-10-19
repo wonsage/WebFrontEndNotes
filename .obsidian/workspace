@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
     "width": 247.5,
     "collapsed": true
   },
-  "active": "b4cd14bd47010d52",
+  "active": "29f36331b7ea510e",
   "lastOpenFiles": [
     "Vue.js使用经验.md",
     "小程序/微信小程序.md",

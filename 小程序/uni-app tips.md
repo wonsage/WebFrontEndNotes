@@ -19,3 +19,12 @@ webpack打包的vue项目中，@表示src目录。
 	- onUnhandledRejection：对未处理的 Promise 拒绝事件监听函数（2.8.1+）
 	- onPageNotFound：页面不存在监听函数
 	- onThemeChange：监听系统主题变化
+### 4. `<input>`
+小程序不能对DOM操作，因此无法选中原生小程序元素对象，并调用其方法。比如，无法在JS中使`<input>`聚焦。而uni-app框架的`<input>`提供了`focus`属性控制其是否聚焦。
+应注意：需要聚焦时，先置虚值，在下次tick再置为真值。
+```JavaScript
+this.focusInput = false;
+this.$nextTick(() => {
+	this.focusInput = true;
+});
+```
