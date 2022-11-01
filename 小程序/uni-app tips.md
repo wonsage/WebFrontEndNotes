@@ -28,3 +28,5 @@ this.$nextTick(() => {
 	this.focusInput = true;
 });
 ```
+### 5. `<image>`
+如需获取已加载图片的宽高，使用组件原生的load方法即可。
