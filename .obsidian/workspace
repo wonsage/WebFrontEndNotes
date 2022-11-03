@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
     "width": 247.5,
     "collapsed": true
   },
-  "active": "b4cd14bd47010d52",
+  "active": "6a6ca0f85f80d4f2",
   "lastOpenFiles": [
     "Tricks/JS.md",
     "Tricks/一些零碎的比较.md",
