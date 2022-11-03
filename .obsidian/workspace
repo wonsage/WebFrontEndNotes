@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b4cd14bd47010d52",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "补充课/Docker/Docker.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "58256ada18a431e8",
         "type": "leaf",
         "state": {
@@ -120,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5,
-    "collapsed": true
+    "width": 247.5
   },
   "active": "58256ada18a431e8",
   "lastOpenFiles": [
