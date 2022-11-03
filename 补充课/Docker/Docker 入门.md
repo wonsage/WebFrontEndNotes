@@ -23,9 +23,10 @@
 存放镜像文件的地方。像git那样可以pull、push。
 ##### 主机 Host
 ##### 客户端 Client
-## CLI
+## CLI 命令
 ### 镜像相关
-#### 删除镜像`docker rmi [OPTIONS] <IMAGE> [IMAGE...]`
+#### 删除镜像
+`docker rmi [OPTIONS] <IMAGE> [IMAGE...]`
 
 ### `docker image <CMD>`管理镜像
 
@@ -41,33 +42,41 @@
    - 强制删除`docker rmi -f <image_id>`
 - 构建镜像`docker build [OPTIONS] <PATH> | <URL>`
    - --tag/-t 打标签`docker build -t <tag_name>`
-### 容器相关命令
-#### 容器列表`ps [OPTIONS]`
-OPTIONS
+### 容器相关
+#### 容器列表
+`ps [OPTIONS]`
+OPTIONS:
 - 默认只显示正在运行的
 - `-a`,`--all` 所有容器
 - `-q`, `--quiet` 只显示容器ID
-#### 从镜像创建容器并启动`run [<options>] <IMAGE> [CMD] [ARG...]`
-OPTIONS
+#### 从镜像创建容器并启动
+`run [<options>] <IMAGE> [CMD] [ARG...]`
+OPTIONS:
 - `-d`,`--detach`后台运行容器（并打印这个容器的ID）
 - `-p`,`--publish`发布容器端口到主机上，即可在主机上访问容器端口下的服务
 e.g.`docker run -dp 80:80 starter`
 - `-it`,-it参数：容器的 Shell 映射到当前的 Shell，然后你在本机窗口输入的命令，就会传入容器
 - `--rm`退出后自动删除容器
-#### 启动容器`start <container_name>:<tag> | <container_id>`
-#### 在一个运行中的容器内执行命令`exec [<OPTIONS>] <CONTAINER> <CMD> [ARG...]`
-#### 查看容器的输出`logs [<OPTIONS>] CONTAINER`
-#### 在正在运行的容器和本机之间拷贝`cp [<CONTAINER>]:[PATH]`
-#### 停止运行容器`docker stop <CONTAINER_ID>`
-#### 终止容器`docker kill <CONTAINER>`
+#### 启动容器
+`start <container_name>:<tag> | <container_id>`
+#### 在一个运行中的容器内执行命令
+`exec [<OPTIONS>] <CONTAINER> <CMD> [ARG...]`
+#### 查看容器的输出
+`logs [<OPTIONS>] CONTAINER`
+#### 在正在运行的容器和本机之间拷贝
+`cp [<CONTAINER>]:[PATH]`
+#### 停止运行容器
+`docker stop <CONTAINER_ID>`
+#### 终止容器
+`docker kill <CONTAINER>`
 与`stop`的区别在于，`kill`向容器里面的主进程发出 SIGKILL 信号，应用程序会立即强行终止，正在进行中的操作会全部丢失，`stop`向容器里面的主进程发出 SIGTERM 信号，然后过一段时间再发出 SIGKILL 信号，应用程序收到 SIGTERM 信号以后，可以自行进行收尾清理工作，但也可以不理会这个信号。
-#### 删除容器`docker rm [<OPTIONS>] <CONTAINER>`
+#### 删除容器
+`docker rm [<OPTIONS>] <CONTAINER>`
 默认只能删除非运行中的容器
-OPTIONS
-
+OPTIONS:
 - `-f`,`--force`强制删除，如果是运行中的容器会先停止
-#### 管理容器`docker container <CMD>`
-
+#### 管理容器
+`docker container <CMD>`
 - `run`同`docker run`
 - `docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 - `start`同`docker start`
@@ -99,12 +108,14 @@ OPTIONS
 - `tag`
 - `push [imageName]:[version]`
 - `pull`：从远端拉取镜像
-#### 
-### 应用Docker
 
 ## 镜像构建文件夹的组成
 ### Dockerfile
-Dockerfile是将文件夹构建为镜像的指导文件，描述了镜像构建的步骤。
+Dockerfile是一个由命令和参数构成的脚本，是将文件夹构建为镜像的指导文件，描述了镜像构建的步骤。一般包括四部分：
+- 基础镜像信息
+- 维护者信息
+- 镜像操作指令
+- 容器启动时执行指令
 ## Dockerfile指令
 ### FROM[🔗](https://docs.docker.com/engine/reference/builder/#from)
 `FROM <image_name>`指明基础镜像
@@ -115,12 +126,6 @@ Dockerfile是将文件夹构建为镜像的指导文件，描述了镜像构建�
 ### CMD[🔗](https://docs.docker.com/engine/reference/builder/#cmd)
 `CMD <command>`执行命令
 
-#### Dockerfile
-Dockerfile 是一个由命令和参数构成的脚本。一般包括四部分：
-- 基础镜像信息
-- 维护者信息
-- 镜像操作指令
-- 容器启动时执行指令
 ### docker-compose
 批量执行 docker，多容器集成
 - service 服务：
