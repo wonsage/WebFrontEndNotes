@@ -4,16 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "58256ada18a431e8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "安装问题记录.md",
-            "mode": "source",
-            "source": false
+        "id": "e354edc4461f8bf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58256ada18a431e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "安装问题记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6289f254a7d97ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +48,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -108,7 +127,7 @@
     "direction": "horizontal",
     "width": 247.5
   },
-  "active": "58256ada18a431e8",
+  "active": "a6289f254a7d97ef",
   "lastOpenFiles": [
     "安装问题记录.md",
     "常用命令行基础/Linux.md",
