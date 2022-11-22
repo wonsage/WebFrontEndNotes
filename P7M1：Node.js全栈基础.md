@@ -21,4 +21,6 @@ node.js提供了一些有用的内置模块，如需使用其中某些方法，�
 #### fs(file system)
 提供了和操作文件相关的方法。
 - readdirSync()
-- 
+
+package的安装
+区分项目依赖和开发依赖
