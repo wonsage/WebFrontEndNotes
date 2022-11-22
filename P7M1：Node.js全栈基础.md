@@ -7,3 +7,6 @@ JavaScript 运行在 Node.js 中我们就叫它服务器端 JavaScript。
 ##### 全局对象`global`
 模块系统
 node.js的模块遵循commonJS规范。
+导出：`module.exports`
+导入：`require()`
+使用const关键字声明导入的变量，避免导入后被修改。
