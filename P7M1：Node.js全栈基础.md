@@ -33,3 +33,10 @@ package的安装
 `1.2.3`要求限制版本在精确的`1.2.3`版本上
 
 更新版本号时，对应命令为`npm version major`、`npm version minor`、`npm version patch
+
+npx命令的用途 §30
+- 一次性使用的包
+	如：create-react-app
+- 执行本地的包
+	执行当前文件夹下的node_modules文件夹中的包
+
