@@ -58,4 +58,6 @@ JS是一门同步的语言，程序按照代码顺序执行。但JS是依赖于*
 ##### 使用回调函数时容易出现的问题：回调地狱§
 ###### 并发：`Promise.all`的使用 §42
 同时调用多个Promise，各个Promise的结果按照传入顺序返回。
-#### 使用异步函数`async``await`简化`Promise`
+##### 使用异步函数`async``await`简化`Promise` §43
+###### `util.promisify` §43
+promisify是util下的一个方法，可以将基于回调函数的异步方法转化为返回`Promise`对象的方法。
