@@ -61,3 +61,8 @@ JS是一门同步的语言，程序按照代码顺序执行。但JS是依赖于*
 ##### 使用异步函数`async``await`简化`Promise` §43
 ###### `util.promisify` §43
 promisify是util下的一个方法，可以将基于回调函数的异步方法转化为返回`Promise`对象的方法。
+
+### Event Loop 事件循环
+宏任务与微任务 §
+宏任务：`setInterval`、`setTimeout`、`setImmediate`、`I/O`。
+微任务：`Promise.then`、`Promise.catch`、`Promise.finally`、`process.nextTick`。
