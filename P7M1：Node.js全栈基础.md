@@ -41,3 +41,7 @@ npx命令的用途 §30
 	执行当前文件夹下的node_modules文件夹中的包
 
 #### 模块查找规则§31-33
+未指定具体文件时，`.js`>`.json`>
+如`require('./server')`，先将尝试查找当前目录下的、名为server的文件，`server.js`>`server.json`。如没有，再查找当前目录下的、名为server的文件夹，并查看其下的package.json中的main项的值，如没有，查找`./server/index.js'`、`./server/index.json`
+未指定具体路径时
+如`require('server')`，会从当前文件路径逐层向上查找node_modules文件夹
