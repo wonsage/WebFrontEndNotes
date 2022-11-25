@@ -64,7 +64,6 @@ promisify是util下的一个方法，可以将基于回调函数的异步方法�
 
 ### Event Loop 事件循环
 ![](https://raw.githubusercontent.com/wonsage/img/main/imgFF379605-087D-4480-A66D-7087470E1C3A.jpeg)
-![](https://raw.githubusercontent.com/wonsage/img/main/imgFF379605-087D-4480-A66D-7087470E1C3A.jpeg)
 宏任务与微任务 §
 宏任务：`setInterval`、`setTimeout`、`setImmediate`、I/O。
 微任务：`Promise.then`、`Promise.catch`、`Promise.finally`、`process.nextTick`。
