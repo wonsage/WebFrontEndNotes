@@ -67,9 +67,20 @@ promisify是util下的一个方法，可以将基于回调函数的异步方法�
 宏任务：`setInterval`、`setTimeout`、`setImmediate`、I/O。
 微任务：`Promise.then`、`Promise.catch`、`Promise.finally`、`process.nextTick`。
 例程 §
+e.g. §49
 ```js
 setTimeout(() => console.log("1"), 0)
 setImmediate(() => console.log("2"))
 // 1 2 或 2 1
 ```
 Node.js 中，延时为0的setTimeout会被修改为1，即至少是1ms的延时执行。setTimeout的回调将在主线程的同步代码执行完毕后执行。本例中，主线程较短，执行时间有可能短于1ms，这种情况将先执行setImmediate的回调。多数情况下，`setTimeout(cb, 0)`的cb可以理解为处于宏任务列队的顶端。
+e.g. §50
+```js
+const fs = require("fs")
+fs.readFile("./index.html", () => {
+  setTimeout(() => console.log("1"), 0)
+  setImmediate(() => console.log("2"))
+})
+// 2 1
+```
+`fs.readFile`为异步API，
