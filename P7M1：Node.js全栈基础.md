@@ -85,3 +85,4 @@ fs.readFile("./index.html", () => {
 // 2 1
 ```
 `fs.readFile`为异步API，
+`process.nextTick`
