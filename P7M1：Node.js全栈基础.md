@@ -85,4 +85,10 @@ fs.readFile("./index.html", () => {
 // 2 1
 ```
 `fs.readFile`为异步API，
-`process.nextTick`
+#### `process.nextTick`
+##### `setImmediate()`
+setImmediate 表示立即执行，它是宏任务，回调函数会被会放置在事件循环的 check 阶段。
+在应用中如果有大量的计算型任务，它是不适合放在主线程中执行的，因为计算任务会阻塞主线 程，主线程一旦被阻塞，其他任务就需要等待，所以这种类型的任务最好交给由 C++ 维护的线程去 执行。
+可以通过 setImmediate 方法将任务放入事件循环中的 check 阶段，因为代码在这个阶段执行不会 阻塞主线程，也不会阻塞事件循环。
+Node.js适合I/O密集型任务，不适合CPU密集型任务，因为主线程一旦阻塞，程序就卡住了。
+### Web应用的组成
