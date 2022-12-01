@@ -147,3 +147,4 @@ co(getResult()).then(res => {})
 参考阅读：
 [进程，线程与多核，多cpu之间的关系]([进程，线程与多核，多cpu之间的关系 (baidu.com)](https://baijiahao.baidu.com/s?id=1707576593733119146&wfr=spider&for=pc))
 [一文搞懂进程、线程、协程及JS协程的发展]([一文搞懂进程、线程、协程及JS协程的发展 - 掘金 (juejin.cn)](https://juejin.cn/post/7005465381791875109))
+[Node.js 与并发模型](https://juejin.cn/post/7121961983875743752)
