@@ -47,8 +47,41 @@
 3. 手写 promise.finally
 
 4. 手写 promise.all
+```js
+Promise.all = function (promises) {
+	return new Promise (resolve, reject => {
+		let count= 0;
+		let arr = [];
+		for(let i in promises) {
+			promises[i].then(value => {
+				count++;
+				arr[i] = value;
+				if (count === promises.length) {
+					resolve(arr)
+				}
+			},reason => {
+				reject(reason)
+			})
+		}
+	})
+} 
+```
+5. 手写 Promise.race
+```js
+Promise.race = function (promises) {
+	return new Promise (resolve, reject => {
+		for (let i in promises) {
+			promises[i].then(value => {
+				resolve(value);
+			}, reason => {
+				reject(reason);
+			})
+		}
+	})
+}
+```
+6. 手写深拷贝函数
 
-5. 手写深拷贝函数
 
    ```js
    const isComplexDataType = obj => (typeof obj === 'object' || typeof obj === 'function') && (obj !== null) // 判断是否为对象的函数
@@ -69,11 +102,10 @@
    }
    ```
 
-6. ##### 什么是防抖和节流？有什么区别？如何实现？  
-	
+7. 什么是防抖和节流？有什么区别？如何实现？
 	防抖和节流都是避免短时间内大量触发的手段。
 
-	节流(throttle)：事件触发并执行后的一段时间内的触发不会执行。节流限制了事件执行的频率上限，合并了频繁触发的事件，避免加重浏览器负担。
+	**节流**(throttle)：事件触发并执行后的一段时间内的触发不会执行。节流限制了事件执行的频率上限，合并了频繁触发的事件，避免加重浏览器负担。
 	- 触发后延时执行：
 		```js
 		function throttleDelay (func, delay) {
@@ -119,7 +151,7 @@
 	   }
 	   ```
 
-	防抖(debounce)：一次有效触发后需要保持一个静默期，期间必须保持没有触发才能恢复到可执行状态。频繁触发到情况下也只是执行第一次或最后一次，相比节流而言更为精准。
+	**防抖**(debounce)：一次有效触发后需要保持一个静默期，期间必须保持没有触发才能恢复到可执行状态。频繁触发到情况下也只是执行第一次或最后一次，相比节流而言更为精准。
 	- 延时执行。一次触发后一段时间内无触发才会执行，因此只会执行连续触发中的最后一次触发。（像电梯，确保一定时间内无人进出后，电梯门关闭）
 		```js
 		function debounceDelay (cb, delay = 500) {
