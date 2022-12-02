@@ -7,7 +7,7 @@
   ```
 - 使用`function*`表达式
   ```js
-  const foo = function* gen() {
+  const foo = function* () {
 	  yield 10;
   }
   ```
