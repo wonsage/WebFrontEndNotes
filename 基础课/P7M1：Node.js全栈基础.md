@@ -45,6 +45,7 @@ npx命令的用途 §30
 如`require('./server')`，先将尝试查找当前目录下的、名为server的文件，`server.js`>`server.json`。如没有，再查找当前目录下的、名为server的文件夹，并查看其下的package.json中的main项的值，如没有，查找`./server/index.js'`、`./server/index.json`
 未指定具体路径时
 如`require('server')`，会从当前文件路径逐层向上查找node_modules文件夹
+详见[node.js寻址规则]([Modules: CommonJS modules | Node.js v19.2.0 Documentation (nodejs.org)](https://nodejs.org/api/modules.html#loading-from-the-global-folders))
 
 ## 异步编程
 #### I/O模型
