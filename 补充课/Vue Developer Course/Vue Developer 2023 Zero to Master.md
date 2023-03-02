@@ -6,10 +6,11 @@
 ## Vue: Beyond the Fundamentals
 ### Understanding Lifecycle Hooks
 ### Use Lifecycle Hooks
+### Virtual DOM
 
 ## Vue Developer Environment
 ## Advanced Vue Components
-## Transitions $ Animations
+## Transitions & Animations
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
