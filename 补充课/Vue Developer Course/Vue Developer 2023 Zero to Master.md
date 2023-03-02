@@ -7,7 +7,11 @@
 ### Understanding Lifecycle Hooks
 ### Use Lifecycle Hooks
 ### Virtual DOM
-
+### The Vue Compiler
+Vue without the Compiler
+Pros:
+- 30% lighter than the full version
+- 
 ## Vue Developer Environment
 ## Advanced Vue Components
 ## Transitions & Animations
