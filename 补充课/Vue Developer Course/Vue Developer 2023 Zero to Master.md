@@ -19,6 +19,8 @@ Vite's Pros:
 - Perfomant
 - Third Party Lib Support
 - Extendable
+### Understanding SASS
+
 ## Advanced Vue Components
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
