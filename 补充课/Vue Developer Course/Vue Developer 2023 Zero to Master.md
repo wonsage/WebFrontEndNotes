@@ -15,7 +15,10 @@ Pros:
 ## Vue Developer Environment
 ### Overview
 ### Introduction to Vite
-
+Vite's Pros: 
+- Perfomant
+- Third Party Lib Support
+- Extendable
 ## Advanced Vue Components
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
