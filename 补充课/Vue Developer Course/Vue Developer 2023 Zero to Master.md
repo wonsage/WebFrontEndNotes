@@ -20,7 +20,10 @@ Vite's Pros:
 - Third Party Lib Support
 - Extendable
 ### Understanding SASS
-
+### PostCSS
+SCSS need to be compiled to CSS
+PostCSS is a JavaScript lib which can deal with the CSS like Object.
+PostCSS is integrated by Vite, so we don't need to install the package.
 ## Advanced Vue Components
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
