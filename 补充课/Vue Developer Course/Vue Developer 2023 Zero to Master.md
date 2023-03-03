@@ -14,6 +14,7 @@ Pros:
 - 
 ## Vue Developer Environment
 ### Overview
+### Introduction to Vite
 
 ## Advanced Vue Components
 ## Transitions & Animations
