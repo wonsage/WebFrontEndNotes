@@ -13,6 +13,8 @@ Pros:
 - 30% lighter than the full version
 - 
 ## Vue Developer Environment
+### Overview
+
 ## Advanced Vue Components
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
