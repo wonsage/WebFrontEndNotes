@@ -28,6 +28,11 @@ PostCSS is integrated by Vite, so we don't need to install the package.
 ### Sidebar Understanding Server
 ### Reviewing the Files
 ### Creating Components
+### Styles
+### SASS
+### Communicating Between Components
+Vue provides the way to transfer data between father comp & child comp.
+### Props
 
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
