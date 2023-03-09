@@ -35,6 +35,8 @@ Vue provides the way to transfer data between father comp & child comp.
 ### Props
 使用props可以实现父组件向子组件传值，父组件内的数据变化能实时反映到子组件上，反之则不然。
 ### The Limitations of Porps
+### Emitting Events
+To produce or trigger an event.
 
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
