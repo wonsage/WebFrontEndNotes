@@ -27,6 +27,7 @@ PostCSS is integrated by Vite, so we don't need to install the package.
 ## Advanced Vue Components
 ### Sidebar Understanding Server
 ### Reviewing the Files
+### Creating Components
 
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
