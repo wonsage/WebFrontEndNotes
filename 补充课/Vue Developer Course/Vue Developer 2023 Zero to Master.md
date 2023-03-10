@@ -37,6 +37,7 @@ Vue provides the way to transfer data between father comp & child comp.
 ### The Limitations of Porps
 ### Emitting Events
 To produce or trigger an event.
+### Validation Props
 
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
