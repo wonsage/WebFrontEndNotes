@@ -38,6 +38,11 @@ Vue provides the way to transfer data between father comp & child comp.
 ### Emitting Events
 To produce or trigger an event.
 ### Validation Props
+### Callback Functions
+A alternative way to update the data in parent comp from a child comp.
+Define the method in parent comp, and transfer this method to child comp through props.
+Recommend to use event, cuz every event could be tracked in timeline, but the CB not.
+### Inserting Content with Slots
 
 ## Transitions & Animations
 ## Projects 2: Vue Quiz App
