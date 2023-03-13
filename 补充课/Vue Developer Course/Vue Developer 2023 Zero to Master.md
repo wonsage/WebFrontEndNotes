@@ -45,6 +45,7 @@ Recommend to use event, cuz every event could be tracked in timeline, but the CB
 ### Inserting Content with Slots
 
 ## Transitions & Animations
+### Animating with CSS Transition
 
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
