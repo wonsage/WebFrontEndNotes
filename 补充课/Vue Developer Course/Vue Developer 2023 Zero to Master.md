@@ -82,6 +82,7 @@ Show the animation at first render.
 -   `@appear-cancelled`
 ### JavaScript Zoom Animation
 Web Animation API
+We can only use JS to complete animation, add `:css` prop on `<transition>` to skip checking the css code.
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
