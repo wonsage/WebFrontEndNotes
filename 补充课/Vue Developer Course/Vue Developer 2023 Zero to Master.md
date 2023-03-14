@@ -47,7 +47,7 @@ Recommend to use event, cuz every event could be tracked in timeline, but the CB
 ## Transitions & Animations
 ### Animating with CSS Transition
 ### Fine-tuning Transitions
-
+*duration* property
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
