@@ -47,7 +47,12 @@ Recommend to use event, cuz every event could be tracked in timeline, but the CB
 ## Transitions & Animations
 ### Animating with CSS Transition
 ### Fine-tuning Transitions
-*duration* property
+*duration* prop
+set the duration time on the HTML comp element.
+
+*mode* prop
+Control the transition order. The in and out transition will begin together while this prop  is absent.
+- out-in 先出后入，大多数情况下使用此值。
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
