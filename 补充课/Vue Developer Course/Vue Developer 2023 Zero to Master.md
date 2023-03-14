@@ -64,6 +64,9 @@ In this case, we use transition comp with `animation` CSS prop.
 
 *type* prop
 configure the main effect. It could be `transition` / `animation`.
+
+*appear* prop
+Show the animation at first render.
 ### Animating with JS
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
