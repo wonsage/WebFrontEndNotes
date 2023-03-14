@@ -46,6 +46,11 @@ Recommend to use event, cuz every event could be tracked in timeline, but the CB
 
 ## Transitions & Animations
 ### Animating with CSS Transition
+Vue provides a comp named `transition` to meet the animation need.
+*name* prop
+use with CSS, the class name shuold be `name-enter-from`, `name-enter-active`, `name-leave-active`, `name-leave-to`. And the CSS prop could be `transition`.
+.e.g
+
 ### Fine-tuning Transitions
 *duration* prop
 set the duration time on the HTML comp element.
@@ -53,6 +58,8 @@ set the duration time on the HTML comp element.
 *mode* prop
 Control the transition order. The in and out transition will begin together while this prop  is absent.
 - out-in 先出后入，大多数情况下使用此值。
+### Animating with CSS Animation
+
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
