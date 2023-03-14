@@ -68,6 +68,20 @@ configure the main effect. It could be `transition` / `animation`.
 *appear* prop
 Show the animation at first render.
 ### Animating with JS
+`transition` also provides events listener.
+-   `@before-enter`
+-   `@before-leave`
+-   `@enter`
+-   `@leave`
+-   `@appear`
+-   `@after-enter`
+-   `@after-leave`
+-   `@after-appear`
+-   `@enter-cancelled`
+-   `@leave-cancelled` (`v-show` only)
+-   `@appear-cancelled`
+### JavaScript Zoom Animation
+Web Animation API
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
