@@ -97,8 +97,12 @@ The diffrence to `<Transition>` is
 ### Transition CSS Class Name
 There is a popular animation lib: Animate.css. How can we use it with Vue?
 
+*enter-from-class*, *enter-active-class*, *leave-active-class*, *leave-to-class*
+To use Animate.css, we only need to change *enter-active-class* and *leave-active-class*
 *className* prop
 change the class name
 ## Projects 2: Vue Quiz App
+### Setting up
+
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
