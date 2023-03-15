@@ -122,4 +122,8 @@ Pass data through prop
 ### Finishing Touches
 ## Master Project: Introduction to Pinia
 We are focusing at the core of Vue in the preview courses. The next to come is a full project, including router, states, and style orgnazition.
+### Creating a New Project
+Config a new Vue proj with Router, Pinia, Vitest, ESLint, Prettier.
+### Reviewing the Files
+
 ## Master Project: Form Validation
