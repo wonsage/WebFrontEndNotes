@@ -105,7 +105,20 @@ change the class name
 ### Setting up
 Initiate a new proj with Vite and trim it up.
 ### Rendering the Questions
+data drive view
+When show the finish tip?
+Which question is showing?
+
 ### Moving between Questions
+Pass data through prop
+1. Loop through all questions and render them
+2. Keep track of current active question and only display that question.
+   `v-if`
+3. Listen for click events on answer.  
+   `@click`, `$emit`
+4. Check if answer is correct, if answer is correct, keep track of how many answers are correct.  Update number of questions answered.
+   `++`, `if`
+5. Update current active question to the next question.
 ### Finishing Touches
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
