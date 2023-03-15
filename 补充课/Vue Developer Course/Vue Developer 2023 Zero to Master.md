@@ -64,7 +64,7 @@ In this case, we use transition comp with `animation` CSS prop.
 .e.g
 
 *type* prop
-configure the main effect. It could be `transition` / `animation`.
+When you add CSS transition and CSS animation at same time, use this prop to configure the main effect. It could be `transition` / `animation`.
 
 *appear* prop
 Show the animation at first render.
