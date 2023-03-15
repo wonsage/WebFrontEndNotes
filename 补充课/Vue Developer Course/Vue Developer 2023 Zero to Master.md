@@ -46,7 +46,8 @@ Recommend to use event, cuz every event could be tracked in timeline, but the CB
 
 ## Transitions & Animations
 ### Animating with CSS Transition
-Vue provides a comp named `transition` to meet the animation need.
+Vue provides a built-in comp named `Transition` to meet the animation need, which can apply enter and leave animations on elements or comps passed to it via its default slot.
+`<Transition>` only supports a single element or comp as its slot content.
 *name* prop
 use with CSS, the class name shuold be `name-enter-from`, `name-enter-active`, `name-leave-active`, `name-leave-to`. And the CSS prop could be `transition`.
 .e.g
@@ -82,6 +83,9 @@ Show the animation at first render.
 -   `@appear-cancelled`
 ### JavaScript Zoom Animation
 Web Animation API
+`HTMLnode.animation(effect, timeline)`
+call this in event methods.
+*css* prop
 We can only use JS to complete animation, add `:css` prop on `<transition>` to skip checking the css code.
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
