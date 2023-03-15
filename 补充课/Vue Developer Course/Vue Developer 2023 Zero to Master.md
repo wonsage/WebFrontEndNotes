@@ -103,6 +103,9 @@ To use Animate.css, we only need to change *enter-active-class* and *leave-activ
 change the class name
 ## Projects 2: Vue Quiz App
 ### Setting up
-
+Initiate a new proj with Vite and trim it up.
+### Rendering the Questions
+### Moving between Questions
+### Finishing Touches
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
