@@ -87,6 +87,8 @@ Web Animation API
 call this in event methods.
 *css* prop
 We can only use JS to complete animation, add `:css` prop on `<transition>` to skip checking the css code.
+### CSS and JavaScript Transition
+Using CSS transition or animation, the events also work.
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
