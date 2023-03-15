@@ -121,4 +121,5 @@ Pass data through prop
 5. Update current active question to the next question.
 ### Finishing Touches
 ## Master Project: Introduction to Pinia
+We are focusing at the core of Vue in the preview courses. The next to come is a full project, including router, states, and style orgnazition.
 ## Master Project: Form Validation
