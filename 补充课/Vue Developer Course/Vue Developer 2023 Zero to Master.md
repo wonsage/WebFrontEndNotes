@@ -125,5 +125,11 @@ We are focusing at the core of Vue in the preview courses. The next to come is a
 ### Creating a New Project
 Config a new Vue proj with Router, Pinia, Vitest, ESLint, Prettier.
 ### Reviewing the Files
+at root directory
+- *.eslintrc.cjs*
+- *.prettierrc.json*
+- *cypress.config.js*
+- *package.json*
+### Formatting with ESLint and Prettier
 
 ## Master Project: Form Validation
