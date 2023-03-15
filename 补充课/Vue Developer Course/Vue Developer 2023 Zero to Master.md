@@ -94,6 +94,11 @@ Using CSS transition or animation, the events also work.
 ### Animating a List
 `<TransitionGroup>`
 The diffrence to `<Transition>` is 
+### Transition CSS Class Name
+There is a popular animation lib: Animate.css. How can we use it with Vue?
+
+*className* prop
+change the class name
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
