@@ -43,7 +43,9 @@ A alternative way to update the data in parent comp from a child comp.
 Define the method in parent comp, and transfer this method to child comp through props.
 Recommend to use event, cuz every event could be tracked in timeline, but the CB not.
 ### Inserting Content with Slots
-
+### Dynamic Components
+*is* prop
+`<keep-alive>` can keep the comp data in the RAM so that the comp won't be destoried when user change the comp.
 ## Transitions & Animations
 ### Animating with CSS Transition
 Vue provides a built-in comp named `Transition` to meet the animation need, which can apply enter and leave animations on elements or comps passed to it via its default slot.
@@ -89,6 +91,9 @@ call this in event methods.
 We can only use JS to complete animation, add `:css` prop on `<transition>` to skip checking the css code.
 ### CSS and JavaScript Transition
 Using CSS transition or animation, the events also work.
+### Animating a List
+`<TransitionGroup>`
+The diffrence to `<Transition>` is 
 ## Projects 2: Vue Quiz App
 ## Master Project: Introduction to Pinia
 ## Master Project: Form Validation
