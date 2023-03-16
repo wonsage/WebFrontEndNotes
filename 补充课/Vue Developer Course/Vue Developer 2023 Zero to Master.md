@@ -149,4 +149,12 @@ State manager solution is a single location where all your data is stored and ma
 ### 12. Splitting the Template into Comp
 ### 13. Disabling Vue's Rules
 `.eslintrc.cjs` => `rules`
+### 14. Working with State
+1. new create a store.  
+   `@/stores` new build a .js file
+   config the store, like id, state(data), getter(methods)...
+   
+2. Use store in comp.  
+   import `useIdStore`.
+2. 
 ## Master Project: Form Validation
