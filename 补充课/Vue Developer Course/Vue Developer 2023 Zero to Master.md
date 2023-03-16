@@ -146,4 +146,7 @@ In the simple app, data is passed by prop from comp to child comp.
 State manager solution is a single location where all your data is stored and managed, and you can access it globally.
 **Pinia**
 ### 011. Reviewing the Pinia Config
+### 12. Splitting the Template into Comp
+### 13. Disabling Vue's Rules
+
 ## Master Project: Form Validation
