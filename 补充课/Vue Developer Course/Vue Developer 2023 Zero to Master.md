@@ -137,5 +137,7 @@ at root directory
 
 PurgeCSS
 ### 007. Installing Tailwind
-
+### Loading Assets
+assets files, will be processed by Vite => `./src/assets`
+static files, like postCSS or => `./public`
 ## Master Project: Form Validation
