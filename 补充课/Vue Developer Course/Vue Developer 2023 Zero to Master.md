@@ -131,5 +131,11 @@ at root directory
 - *cypress.config.js*
 - *package.json*
 ### Formatting with ESLint and Prettier
+### What is Tailwind
+- Does not come with UI elements
+- Focuses on utility
+
+PurgeCSS
+### 007. Installing Tailwind
 
 ## Master Project: Form Validation
