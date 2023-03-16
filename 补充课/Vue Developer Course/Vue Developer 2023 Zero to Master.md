@@ -148,5 +148,5 @@ State manager solution is a single location where all your data is stored and ma
 ### 011. Reviewing the Pinia Config
 ### 12. Splitting the Template into Comp
 ### 13. Disabling Vue's Rules
-
+`.eslintrc.cjs` => `rules`
 ## Master Project: Form Validation
