@@ -141,5 +141,9 @@ PurgeCSS
 assets files, will be processed by Vite => `./src/assets`
 static files, like postCSS or => `./public`
 ### 010. Understanding State
-
+**State** refers to the data for app.
+In the simple app, data is passed by prop from comp to child comp.
+State manager solution is a single location where all your data is stored and managed, and you can access it globally.
+**Pinia**
+### 011. Reviewing the Pinia Config
 ## Master Project: Form Validation
