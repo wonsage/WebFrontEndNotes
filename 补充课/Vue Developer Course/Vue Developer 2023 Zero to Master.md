@@ -157,5 +157,11 @@ State manager solution is a single location where all your data is stored and ma
 2. Use store in comp.  
    import **use*Id*Store**, and also **mapStores** if you are using options API
 ### 15. Alternative Mapping Functions
+- mapState
+- mapWriteableState
+These two functions are both generate a object
+The difference is that `mapWriteableState` can't add store's getter.
+### Understanding Getters
+### 17. Using Getters
 
 ## Master Project: Form Validation
