@@ -164,5 +164,8 @@ The difference is that `mapWriteableState` can't add store's getter.
 ### Understanding Getters
 ### 17. Using Getters
 Define a getter for class name in Store, it returns different class name in different state cases.
-Register the store in comp, and access the classname getter via Computed.
+Register the Store in Comp, and access the classname Getter via Computed.
+Apply the classname to element, so that the element can change with State in Store.
+### 18. Closing the Modal
+
 ## Master Project: Form Validation
