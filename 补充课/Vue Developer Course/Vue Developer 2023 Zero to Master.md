@@ -158,14 +158,20 @@ State manager solution is a single location where all your data is stored and ma
    import **use*Id*Store**, and also **mapStores** if you are using options API
 ### 15. Alternative Mapping Functions
 - mapState
-- mapWriteableState
+- mapWritableState
 These two functions are both generate a object
 The difference is that `mapWriteableState` can't add store's getter.
 ### Understanding Getters
 ### 17. Using Getters
 Define a getter for class name in Store, it returns different class name in different state cases.
-Register the Store in Comp, and access the classname Getter via Computed.
+Register the Store in Comp (using **mapState**), and access the classname Getter via Computed.
 Apply the classname to element, so that the element can change with State in Store.
 ### 18. Closing the Modal
+Register the Store in Comp (using **mapWritableState**)
+write the State's value.
+### 19. Aliases
+Rename the state in comp
+Use object instead of array param, like
+`mapState(useUserStore, ['name', 'age'])` => `mapState(useUserStore, {userName: 'name', userAge: 'age'}`
 
 ## Master Project: Form Validation
