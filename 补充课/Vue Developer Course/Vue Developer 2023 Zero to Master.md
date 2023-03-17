@@ -155,6 +155,7 @@ State manager solution is a single location where all your data is stored and ma
    config the store, like id, state(data), getter(methods)...
    
 2. Use store in comp.  
-   import `useIdStore`.
-2. 
+   import **use*Id*Store**, and also **mapStores** if you are using options API
+### 15. Alternative Mapping Functions
+
 ## Master Project: Form Validation
