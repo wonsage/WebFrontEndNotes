@@ -163,5 +163,6 @@ These two functions are both generate a object
 The difference is that `mapWriteableState` can't add store's getter.
 ### Understanding Getters
 ### 17. Using Getters
-
+Define a getter for class name in Store, it returns different class name in different state cases.
+Register the store in comp, and access the classname getter via Computed.
 ## Master Project: Form Validation
