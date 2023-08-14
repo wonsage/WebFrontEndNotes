@@ -1,17 +1,17 @@
 ## Promise
-以下是Promise的实例方法：
+以下是Promise的**实例方法**：
 ### `Promise.prototype.then()`
 执行：敲定时
+
 ### `Promise.prototype.catch()`
 执行：只在被拒绝（失败）时
+
 ### `Promise.prototype.finally()`
 
-以下几个是Promise的静态方法：
+以下几个是Promise的**静态方法**：
 ### `Promise.all()` ★★★
 参数：一个Promise对象数组
-
 返回：一个新的Promise对象
-
 执行：**同时开始**执行入参数组中所有的Promise。当所有promise元素 resolve后resolve，所有promise元素的返回值按原顺序组成数组返回；如有任一Promise reject，Promise.all() reject，reject reason即为该Promise的reject reason，但不影响其他Promise执行。
 
 理解：数组中的各个Promise类似于**串联**关系（**与**关系），一个失败就失败，所有的成功才成功。

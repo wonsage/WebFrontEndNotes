@@ -1,10 +1,10 @@
 #  JS 面试题：代码分析
 
-1. ##### Vue/React 中为什么要在列表组件中写 key？  
+##### 1. Vue/React 中为什么要在列表组件中写 key？  
 
    Vue 中，v-for 默认会尝试原地修改元素而非重新排序，没有 key 时，状态绑定的是位置。有 key 时，状态则根据 key 绑定到了对应的数组元素上。另外，也不能以不固定的 index 作为 key 值，key 值需要确切地指向某一唯一元素，比如 id。
 
-2. ##### `['1', '2', '3'].map(parseInt)` what & why ?  
+##### 2.  `['1', '2', '3'].map(parseInt)` what & why ?  
 
    一个数组调用 map 函数，回调函数为 parseInt  
    map 函数用于使用数组生成一个新数组，每个数组元素都要经过map 的回调处理后返回。map 的回调有三个参数：currentValue、[index]、[array]。  

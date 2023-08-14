@@ -81,8 +81,6 @@ Promise.race = function (promises) {
 }
 ```
 6. 手写深拷贝函数
-
-
    ```js
    const isComplexDataType = obj => (typeof obj === 'object' || typeof obj === 'function') && (obj !== null) // 判断是否为对象的函数
    const deepClone = function (obj, hash = new WeakMap()) {
@@ -168,7 +166,7 @@ Promise.race = function (promises) {
 		```js
 		function debounceImmediate (cb, wait = 500) {
 			let timer = null
-			let flag = true
+			let imme = true // 表征可触发状态
 			return function () {
 				if (flag) {
 					cb.apply(this, arguments)
