@@ -166,7 +166,7 @@ Promise.race = function (promises) {
 		```js
 		function debounceImmediate (cb, wait = 500) {
 			let timer = null
-			let imme = true // 表征可触发状态
+			let flag = true // 表征可触发状态
 			return function () {
 				if (flag) {
 					cb.apply(this, arguments)
@@ -179,4 +179,8 @@ Promise.race = function (promises) {
 				}, wait)
 			}
 		}
+		```
+	- 可传参控制是否即时执行的版本。
+		```js
+		function debounce (cb, wait = 500, immediate = true)
 		```
