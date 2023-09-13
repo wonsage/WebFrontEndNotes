@@ -5,3 +5,4 @@
 
 Homebrew 安装
 无需在Shell中手动配置path
+
