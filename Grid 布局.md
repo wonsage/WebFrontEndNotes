@@ -3,13 +3,14 @@
 Grid Container 的全部属性
 
 - display
-- grid-template-columns
-- grid-template-rows
-- grid-template-areas
 - grid-template
-- grid-column-gap
-- grid-row-gap
+	- grid-template-columns
+	- grid-template-rows
+	- grid-template-areas
 - grid-gap
+	- grid-column-gap
+	- grid-row-gap
+
 - justify-items
 - align-items
 - justify-content
