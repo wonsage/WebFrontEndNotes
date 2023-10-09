@@ -21,3 +21,6 @@ overflow: hidden;
   -webkit-box-orient: vertical; // 反正你就是要加
 }
 ```
+
+隐藏滚动条
+`::-webkit-scrollbar { width: 0px; }`
