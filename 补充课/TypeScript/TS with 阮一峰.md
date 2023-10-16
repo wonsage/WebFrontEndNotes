@@ -1,0 +1,2 @@
+JavaScript动态类型语言
+TypeScript
