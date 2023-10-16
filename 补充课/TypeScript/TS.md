@@ -31,7 +31,7 @@ function fn(text: string): void { // void 指明函数的返回值为空
 #### null、undefined
 同void类型一样，这两个类型用处不是很大，一般不用来声明。
 默认情况下`null`和`undefined`是所有类型的子类型，比如可以把 `null`和`undefined`赋值给`number`类型的变量。
-指定了`--strictNullChecks`标记时，null和undefined则只是void的子集，即只能将`null`和`undefined`只能赋值给`void`和它们各自。
+指定了`--strictNullChecks`标识时，null和undefined则只是void的子集，即只能将`null`和`undefined`只能赋值给`void`和它们各自。
 #### never
 永不存在的值。
 常见于指明函数的返回值，如：
