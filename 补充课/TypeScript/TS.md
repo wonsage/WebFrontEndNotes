@@ -108,3 +108,4 @@ let strArr: string[] = ['a', 'b', 'c'] // 成员必须为字符串
 let anyArr: any[] = [1, 'a', true]
 
 ```
+### 元祖
