@@ -56,9 +56,9 @@ function infiniteLoop(): never {
 支持联合类型：使用`|`连接多个类型
 联合类型相当于类型的自由组合，提高了自由度。
 ##### 使用
-- `let setting:number|string`
+- 既可以是数字也可是字符串`let setting:number|string`
 - `let gender:'male'|'female'`
-- `let choice:true|flase`
+- 固定可数情形的值`let choice:true|flase`
 - 结合字面量类型和值类型：`let v:string|5`
 - 在打开了strictNullChecks时，常用`let name:string|null`
 
