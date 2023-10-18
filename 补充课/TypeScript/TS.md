@@ -47,10 +47,20 @@ function infiniteLoop(): never {
 ```
 以上两个函数的返回值为never，那么该函数必须存在无法到达的终点，比如死循环或者抛出错误。
 #### 值类型
-单个值也是一种类型
-
-#### 联合类型
+单个值也是一种类型，是对应数据类型的子类型
+如`const a = 5`，常量a会被推断为值类型5，值类型5是number类型的子类型。
+`let b: number;` `b = a;`正确
+被声明为值类型的变量只能赋该值。
+通常用在联合类型中，用来确定具体的值。
+#### 联合类型 union types
 支持联合类型：使用`|`连接多个类型
+联合类型相当于类型的自由组合，提高了自由度。
+##### 使用
+- `let setting:number|string`
+- `let gender:'male'|'female'`
+- `let choice:true|flase`
+- 结合字面量类型和值类型：`let v:string|5`
+- 在打开了strictNullChecks时，常用`let name:string|null`
 
 除any和联合类型外，变量声明为某一类型后，会对其进行类型校验，如果赋值的类型错误会报错。
 ### 字面量类型与包装对象类型
