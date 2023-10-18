@@ -63,6 +63,14 @@ function infiniteLoop(): never {
 - 在打开了strictNullChecks时，常用`let name:string|null`
 
 除any和联合类型外，变量声明为某一类型后，会对其进行类型校验，如果赋值的类型错误会报错。
+
+### 交叉类型 intersection types
+使用`&`连接，多个类型的交集，声明的变量需同时满足多个类型，一般用于对象的合成。
+如
+```ts
+type A = { a: number }
+type B = A & { b: string } // 类型B需同时具有a,b两个属性
+```
 ### 字面量类型与包装对象类型
 原始类型包括了 string、number、boolean、bigint、symbol这五种，它们都有字面量和包装对象两种情况。
 其中，string、number、boolean都可以使用构造函数生成一个包装对象类型，如`let n = new Number()`。
@@ -73,6 +81,10 @@ function infiniteLoop(): never {
 `Object` 广义对象，包括数组、函数，还包括原始类型的包装对象，不包括null和undefined。可以简写为`{}`。
 `object` 狭义对象，只包含数组、函数、对象。
 二者都只包含原生Object对象，自定义的类型不在其中，因此不能使用
+
+#### 定义类型：`type`关键字
+为自定义的类型定义一个别名会更加方便，如`type Age = number|string`、`type Name = 'xyz'|321`
+
 ### 接口 interface
 接口，顾名思义，用以定义一种使用规范。以此接口作为类型声明的变量就需要满足接口的定义。（类似于class的概念)
 ```ts
