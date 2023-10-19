@@ -101,10 +101,16 @@ let p1: Person {
 }
 ```
 ### 数组
+写法一：
 ```ts
 let numArr: number[] = [1,2,3,4] // 成员必须为数值
 
 let strArr: string[] = ['a', 'b', 'c'] // 成员必须为字符串
 let anyArr: any[] = [1, 'a', true]
 ```
+写法二：
+```ts
+let numArr:Array<number> = [1,2,3]
+```
+这种写法本质上属于泛型。
 ### 元祖
