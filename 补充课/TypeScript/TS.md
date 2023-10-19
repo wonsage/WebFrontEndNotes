@@ -106,6 +106,5 @@ let numArr: number[] = [1,2,3,4] // 成员必须为数值
 
 let strArr: string[] = ['a', 'b', 'c'] // 成员必须为字符串
 let anyArr: any[] = [1, 'a', true]
-
 ```
 ### 元祖
