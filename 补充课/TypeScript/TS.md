@@ -113,4 +113,12 @@ let anyArr: any[] = [1, 'a', true]
 let numArr:Array<number> = [1,2,3]
 ```
 这种写法本质上属于泛型。
+
+### 只读数组
+在需要禁止数组的增删时使用只读数组。
+`let arr:readonly number[] = [1, 2, 3]`
+readonly是一个关键字
+readonly number[] 和 number[] 是两种类型，且number[] 是 readonly number[]的子类型
+`let arr:ReadonlyArray<number>`和`let arr:Readonly<number[]>`
+const断言：`let arr = [1, 2, 3] as const;`
 ### 元祖
