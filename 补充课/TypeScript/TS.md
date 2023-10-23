@@ -114,11 +114,19 @@ let numArr:Array<number> = [1,2,3]
 ```
 这种写法本质上属于泛型。
 
-### 只读数组
+#### 只读数组
 在需要禁止数组的增删时使用只读数组。
 `let arr:readonly number[] = [1, 2, 3]`
 readonly是一个关键字
 readonly number[] 和 number[] 是两种类型，且number[] 是 readonly number[]的子类型
 `let arr:ReadonlyArray<number>`和`let arr:Readonly<number[]>`
 const断言：`let arr = [1, 2, 3] as const;`
-### 元祖
+### 元组 Tuple
+元组是TS中区分的概念，指的是成员类型可以自由设置的数组。
+`let s:[string, number] = ['a', 2]` 这个元组的第一个成员是字符串，第二个是数字。元组的声明不仅确定了成员的数据类型，还确定了元组的长度。
+定义元组时，类型写在`[]`内部，而定义数组时，类型写在外部。
+
+##### 不定成员
+`let t:[string, boolean, number?]` 不定的成员只能放在元组的尾部，可以有多个。
+##### 不限长度的元组
+`let t:[ boolean, ...number[] ]` 使用扩展运算符表示，可以用在元组的任意位置。
