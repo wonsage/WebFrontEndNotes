@@ -27,3 +27,6 @@ Imported via "./Stat.vue" from file '/Volumes/Dev/CASE/index.vue'Vetur(1149)
 解决办法是，将case文件夹复制一份，删除原有文件夹后再改名。
 ## 个人推荐配置
 根据开发中的情况，来决定是否在工作电脑上开启区分大小写。使用Mac/Win作为开发电脑时，如果团队不是全Linux开发，则使用默认的即可。只在确实需要的时候，在硬盘中新建一个区分大小写的分区作为专用即可。
+
+## 参考
+[区分大小写 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/wsl/case-sensitivity#differences-between-windows-and-linux-case-sensitivity)
