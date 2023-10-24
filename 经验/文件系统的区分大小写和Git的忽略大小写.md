@@ -10,8 +10,10 @@
 在不区分大小写的系统中，文件名可以修改大小写，但忽略大小写的Git无法记录这类大小写改动，不会产生log。
 解决办法有：
 - 使用两次`git mv`命令：先`git mv dir-name tmp-name`，后`git mv tmp-name dir-name`。
+  注：在core.ignorecase为true时，使用`git mv a.js A.js`会有问题。
 - 两次提交：改一个中间名后提交一次，改为目标名后再次提交。
 不建议修改git config core.ignorecase为false，因为改名后提交，仓库中会有大小写不同的两个文件，需要再手动删除。
+假如修改了core.ignorecase，解决后记得使用`git config --unset core.ignorecase`改回。
 
 #### 文件改名后报错
 文件引入其他文件后，又修改了文件或文件夹名的大小写，此时可能会有如下的类似报错：
