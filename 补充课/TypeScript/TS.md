@@ -154,5 +154,14 @@ readonly是一个关键字
 - 变量赋值
 ```ts
   const add:
-	  
+	  (txt:string) => void
+  = function (txt) {
+	  console.log('Hi!' + txt)
+  }
+  // 通常写成这样
+  type voidFunc = (txt:string) => void;
+  const add:voidFunc = function (txt) {
+	  console.log('Hi!' + txt)
+  }
 ```
+
