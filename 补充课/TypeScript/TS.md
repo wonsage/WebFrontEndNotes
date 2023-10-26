@@ -152,16 +152,20 @@ readonly是一个关键字
 	函数没有返回值的话，写void。
 	通常函数的返回值类型可以省略不写，TS会推断出来。
 - 变量赋值
-```ts
-  const add:
+	```ts
+	const add:
 	  (txt:string) => void
-  = function (txt) {
+	= function (txt) {
 	  console.log('Hi!' + txt)
-  }
-  // 通常写成这样
-  type voidFunc = (txt:string) => void;
-  const add:voidFunc = function (txt) {
+	}
+	// 通常写成这样
+	type voidFunc = (txt:string) => void;
+	const add:voidFunc = function (txt) {
 	  console.log('Hi!' + txt)
-  }
-```
-
+	}
+	// 在没有定义函数类型时还可以使用typeof应用其他函数的类型
+	const add2:typeof add = function (s) {
+	
+	}
+	```
+- 对象
