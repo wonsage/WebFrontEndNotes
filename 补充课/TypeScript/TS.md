@@ -140,4 +140,19 @@ readonly是一个关键字
 - `type tr = readonly [number, string]`
 - `type tr = Readonly<number, string>`
 
-###
+### 函数
+#### 声明
+- 字面量声明
+	```ts
+	let add = function (a: number, b: number):number {
+		return a+b;
+	}
+	```
+	声明、赋值的同时，注明了传参和返回值的类型。
+	函数没有返回值的话，写void。
+	通常函数的返回值类型可以省略不写，TS会推断出来。
+- 变量赋值
+```ts
+  const add:
+	  
+```
