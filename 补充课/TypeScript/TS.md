@@ -179,3 +179,6 @@ let foo: {
 	console.log(a)
 }
   ```
+#### 返回值
+返回值为void表示函数没有返回值。
+可以返回undefined或null，strictNullChecks下，不能返回null
