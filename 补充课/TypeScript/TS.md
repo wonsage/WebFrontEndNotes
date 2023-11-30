@@ -227,7 +227,7 @@ const p: {
 在字面量作为变量传入函数时，也会检查。
 e.g.
 ```ts
-interface Params: {
+interface Params {
 	a: number;
 }
 function add(params: Params) {}
