@@ -3,7 +3,9 @@
    官网地址：[postcss.org/](https://link.juejin.cn/?target=https%3A%2F%2Fgitee.com%2Flink%3Ftarget%3Dhttps%253A%252F%252Fpostcss.org%252F "https://gitee.com/link?target=https%3A%2F%2Fpostcss.org%2F") 
    github地址：[github.com/postcss/pos…](https://link.juejin.cn/?target=https%3A%2F%2Fgitee.com%2Flink%3Ftarget%3Dhttps%253A%252F%252Fgithub.com%252Fpostcss%252Fpostcss "https://gitee.com/link?target=https%3A%2F%2Fgithub.com%2Fpostcss%2Fpostcss")
    `npm i postcss-pxtorem -D`
-   [postcss-pxtorem github]([cuth/postcss-pxtorem: Convert pixel units to rem (root em) units using PostCSS (github.com)](https://github.com/cuth/postcss-pxtorem))
+   [cuth/postcss-pxtorem: Convert pixel units to rem (root em) units using PostCSS (github.com)](https://github.com/cuth/postcss-pxtorem)
+   
+   注意包的版本，postcss-pxtorem@6依赖postcss@8依赖webpack
 2. 配置postcss.config.js文件
    
 3. 定义HTML根元素的font-size
