@@ -5,7 +5,7 @@
    `npm i postcss-pxtorem -D`
    [cuth/postcss-pxtorem: Convert pixel units to rem (root em) units using PostCSS (github.com)](https://github.com/cuth/postcss-pxtorem)
    
-   注意包的版本，postcss-pxtorem@6依赖postcss@8依赖webpack
+   注意包的版本，postcss-pxtorem@6依赖postcss@8依赖webpack@5，postcss-pxtorem@5依赖postcss@7依赖webpack@4。
 2. 配置postcss.config.js文件
    
 3. 定义HTML根元素的font-size
