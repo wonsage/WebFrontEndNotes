@@ -4,10 +4,10 @@
 - dataSources
 - defaultDataSource
 ###  dataSources
-一个DataSourceCollection对象，指向dataSourceDisplay.dataSources
+一个DataSourceCollection对象，指向dataSourceDisplay.**dataSources**
 DataSource一般会添加到这里。
 ### entities
-viewer.entites指向dataSourceDisplay.defaultDataSource.entities
+viewer.entites指向dataSourceDisplay.**defaultDataSource**.entities
 一般用于存放未加分类的实体。
 
 ### scene
