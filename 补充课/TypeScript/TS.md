@@ -272,4 +272,3 @@ type obj = {
 `extends` 关键字
 可以多重继承，即在一个extends语句中同时继承多个。
 ##### 继承type
-
