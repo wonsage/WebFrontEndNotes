@@ -10,4 +10,4 @@ resolve: {
 	fallback: { "https": false, "zlib": false, "http": false, "url": false },
 }
 ```
-方法2：安装[node-polyfill-webpack-plugin]([node-polyfill-webpack-plugin - npm (npmjs.com)](https://www.npmjs.com/package/node-polyfill-webpack-plugin))
+方法2：安装[node-polyfill-webpack-plugin - npm (npmjs.com)](https://www.npmjs.com/package/node-polyfill-webpack-plugin)
