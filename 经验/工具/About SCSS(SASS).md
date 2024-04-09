@@ -7,3 +7,4 @@ node-sass已废弃，不再更新支持新特性
 
 ### 引入:export对象时为空对象
 尝试改名为`xxx.module.scss`
+表现在VueCLI5中，可能与Webpack5有关。
