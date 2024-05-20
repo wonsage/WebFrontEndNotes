@@ -63,7 +63,11 @@ git add . 提交新文件(new)和被修改(modified)文件，不包括被删除(
 - 如果回退分支的代码以后还需要的情况则使用git revert， 如果分支是提错了没用的并且不想让别人发现这些错误代码，则使用git reset
 # 切换 checkout switch
 ### checkout
+[Git - git-checkout Documentation (git-scm.com)](https://git-scm.com/docs/git-checkout/zh_HANS-CN)
 可以用来切换分支和恢复修改。
+1）切换分支；
+2）从暂存区复制文件到工作区（放弃当前修改）；
+3）从其他区复制文件到工作区；
 ### switch
 [Git - git-switch Documentation (git-scm.com)](https://git-scm.com/docs/git-switch/zh_HANS-CN)
 `git switch <branch>` 
