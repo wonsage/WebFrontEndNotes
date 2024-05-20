@@ -6,7 +6,7 @@ git add -u 提交被修改(modified)和被删除(deleted)文件，不包括新�
 
 git add . 提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
-# git rebase、git merge
+# 合并 git rebase、git merge
 **rebase 重定基地，重新设立起点**
 
 都是将一个分支的更改并入另一个分支，只不过方式不同
@@ -61,3 +61,11 @@ git add . 提交新文件(new)和被修改(modified)文件，不包括被删除(
 > 但是git reset是之间把某些commit在某个branch上删除，因而和老的branch再次merge时，这些被回滚的commit应该还会被引入
 
 - 如果回退分支的代码以后还需要的情况则使用git revert， 如果分支是提错了没用的并且不想让别人发现这些错误代码，则使用git reset
+# 切换 checkout switch
+### checkout
+可以用来切换分支和恢复修改。
+### switch
+[Git - git-switch Documentation (git-scm.com)](https://git-scm.com/docs/git-switch/zh_HANS-CN)
+`git switch <branch>` 
+`git switch -c <branch>` 新建分支，然后切换至新分支
+2.23版本新增了switch方法和restore，分别用于切换分支和恢复修改，这样一定程度上替代了checkout命令，但checkout仍被保留。
